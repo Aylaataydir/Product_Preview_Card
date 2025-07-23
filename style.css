@@ -140,6 +140,8 @@ main {
 @media (min-width: 600px) {
     .product {
         grid-template-columns: 1fr 1fr;
+        --content-padding: 2rem;
+    
     }
 }
 
