@@ -115,6 +115,9 @@ main {
     gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
+  
+    
+
 
 
 }
@@ -170,10 +173,21 @@ main {
     background-color: var(--clr-primary-400);
     color: white;
     font-weight: var(--fw-bold);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.button[data-icon="shopping-cart"]:: ::before {
+.button[data-icon="shopping-cart"]::before {
 content: "";
+background-image: url(images/icon-cart.svg);
+width: 15px;
+height: 16px;
+display: inline-block;
+margin-right: 0.5rem;
+
+
 
 }
 
